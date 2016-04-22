@@ -9,7 +9,9 @@
 	
 	
 	10.times { |n|  
-		Blog.create(title: Faker::Lorem.sentence(3), content: Faker::Lorem.paragraph)
+		Blog.create(title: Faker::Lorem.sentence(3), 
+					content: Faker::Lorem.paragraph(20)
+					)
 	}
 
 	
