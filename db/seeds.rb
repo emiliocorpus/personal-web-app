@@ -6,4 +6,10 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
-	Blog.create(content: Faker::Lorem.paragraph)
+	
+	
+	10.times { |n|  
+		Blog.create(title: Faker::Lorem.sentence(3), content: Faker::Lorem.paragraph)
+	}
+
+	
