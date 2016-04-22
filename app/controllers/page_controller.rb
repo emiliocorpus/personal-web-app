@@ -1,5 +1,6 @@
 class PageController < ApplicationController
   def home
+  	@blog = Blog.all.first
   end
 
   def projects

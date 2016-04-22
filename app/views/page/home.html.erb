@@ -1,9 +1,13 @@
 <div class="body-container debugger">
-
 	<h1>Latest Blog</h1>
 
-	
+	<p>
+		<%= @blog.created_at.strftime("%A") %>,
+		<%= @blog.created_at.strftime("%B #{@blog.created_at.day.ordinalize}, %Y")%>
+	</p>
 
-	<p>Find me in app/views/page/home.html.erb</p>
+	
+	<p class="debugger"><%= @blog.content %></p>
+
 </div>
 
