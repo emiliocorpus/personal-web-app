@@ -1,13 +1,19 @@
 <div class="body-container debugger">
-	<h1>Latest Blog</h1>
 
-	<p>
-		<%= @blog.created_at.strftime("%A") %>,
-		<%= @blog.created_at.strftime("%B #{@blog.created_at.day.ordinalize}, %Y")%>
-	</p>
+
+	<div class="latest-blog debugger">
+		<p class="blog-title">
+			<%= @blog.title %>
+		</p>
+		<p class="blog-date">
+			<%= @blog.created_at.strftime("%A") %>, <%= @blog.created_at.strftime("%B #{@blog.created_at.day.ordinalize}, %Y")%>
+		</p>
+		<p class="blog-content">
+			<%= @blog.content %>
+		</p>
+
+	</div>
 
 	
-	<p class="debugger"><%= @blog.content %></p>
-
 </div>
 
