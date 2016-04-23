@@ -10,6 +10,6 @@ class PageController < ApplicationController
   end
 
   def blogs
-  	@blogs = Blog.all
+  	@blogs = Blog.all.reverse
   end
 end

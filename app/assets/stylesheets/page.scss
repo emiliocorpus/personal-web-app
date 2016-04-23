@@ -25,18 +25,33 @@ html {
 
 }
 
-.body-container {
+.body-container, {
 	width:100%;
 	padding-left:7%;
 	padding-right:7%;
-	height:1000px;
+	padding-bottom:30%;
 }
 
-.latest-blog {
+.blogs-container {
 	width: 90%;
 	margin: 0 auto;
 	margin-top:10%;
 
+}
+
+.latest-blog, .blog {
+	width: 90%;
+	margin: 0 auto;
+	margin-top:10%;
+	-webkit-box-shadow: 2px 31px 74px -14px rgba(0,0,0,0.7);
+	-moz-box-shadow: 2px 31px 74px -14px rgba(0,0,0,0.7);
+	box-shadow: 2px 31px 74px -14px rgba(0,0,0,0.7);
+	padding-left:5%;
+	padding-right:5%;
+	padding-top:5%;
+	padding-bottom:5%;
+	border:1px solid black;
+	margin-bottom:200px;;
 }
 
 
