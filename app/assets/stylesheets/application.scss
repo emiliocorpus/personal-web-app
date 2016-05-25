@@ -12,10 +12,14 @@ body {
   right: 0;
   bottom: 0;
   left: 0;
+  width: 100%;
   padding: 1rem;
-  background-color: #B3B3B3;
-  text-align: center;
-  color:white;
   height:200px;
-  line-height:150px;
+  display: table;
+}
+
+.footer-content {
+  display:table-cell;
+  vertical-align:middle;
+  text-align:center;
 }

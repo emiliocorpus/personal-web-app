@@ -4,7 +4,9 @@ Rails.application.routes.draw do
 
   get 'about' => 'page#about', as: :about
   get 'blogs' => 'page#blogs', as: :blogs
-  get 'projects'=> 'page#projects', as: :projects
+  get 'portfolio'=> 'page#portfolio', as: :portfolio
+  get 'resume' => 'page#resume', as: :resume
+  get 'contact' => 'page#contact', as: :contact
  
 
 end
