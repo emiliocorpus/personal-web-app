@@ -1,80 +1,122 @@
-
-// box sizing styling
-html {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+.brand-logo {
+	font-style: "cursive";
 }
-*, *:before, *:after {
-  -webkit-box-sizing: inherit;
-  -moz-box-sizing: inherit;
-  box-sizing: inherit;
-}
-
-.navbar, .navbar-default{
-	margin-bottom:0;
-}
-.debugger {
-	border: 1px solid red;
-}
-
-.above-nav {
-	text-align:center;
-	color:white;
-}
-
-.color {
-	margin-bottom:0;
-	background-color:black;
-}
-
-.banner {
-	max-width:100%;
-}
-
 .pad-left {
 	padding-left:5%;
 }
 
-.body-container, {
+hr {
+	display: block;
+    height: 20px;
+    border: 0;
+    border-top: 1px solid #131313;
+    margin: 1em 0;
+    padding: 0; 
+}
+
+
+.divider {
+	background-color:rgba(105,105,105,0.95);
+	text-align:center;
+	margin:0 auto;
+	width:100%;
+	height:75px;
+	display:table;
+}
+
+.divider div {
+	color:white;
+	display:table-cell;
+	margin:0 auto;
+	text-align:center;
+	vertical-align:middle;
+	border:1px solid black;
+}
+
+.upper-body-container {
+	background: url('stoop.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 	margin-top:0;
 	width:100%;
-	padding-bottom:30%;
 }
+
+.mid-body-container {
+	background: url('city-scape.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	margin-top:0;
+	width:100%;
+	height:100%;
+	padding-top:2%;
+}
+
+.lower-body-container {
+	background: url('cage-library.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	margin-top:0;
+	width:100%;
+	height:100%;
+	padding-top:20%;
+}
+
+
 
 .blogs-container {
 	width: 100%;
 	margin: 0 auto;
 	margin-top:10%;
-
 }
 
-.latest-blog, .blog, .about-container {
+.welcome {
+	padding-top:200px;
+	height:100%;
+	height:100vh;
+	text-align:center;
+	color:white;
+	text-shadow: 2px 2px #020202
+}
+
+ .latest-blog, .blog, .about-container{
 	width: 100%;
 	margin: 0 auto;
 	padding-left:5%;
 	padding-right:5%;
 	padding-top:5%;
 	padding-bottom:5%;
+	background-color: rgba(255, 253, 255, 0.9);
+	background: rgba(255, 253, 255, 0.9);
+	color: #494949;
 }
 
+.blog {
+	margin-bottom:10%;
+}
+
+
+//blogs
+.latest-blog {
+	margin-bottom:30%;
+}
 .blog-title {
 	font-size: 25px;
 	font-style:bold;
 }
-
 .blog-date {
 	font-size: 14px;
 	padding-left: 3%;
 }
-
 .blog-content {
 	font-size: 16px;
 	text-align:justify;
-
 }
 
 
-.brand-logo {
-	font-style: "cursive";
-}
+

@@ -1,6 +1,6 @@
 class PageController < ApplicationController
   def home
-  	@blog = Blog.all.last
+  	@blogs = Blog.all.reverse
   end
 
   def projects
