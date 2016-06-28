@@ -11,6 +11,9 @@ html {
   box-sizing: inherit;
 }
 
+.navbar, .navbar-default{
+	margin-bottom:0;
+}
 .debugger {
 	border: 1px solid red;
 }
