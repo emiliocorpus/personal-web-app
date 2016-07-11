@@ -6,7 +6,6 @@ body {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	
 }
 input[type='text'] {
 	height:120px;
@@ -28,7 +27,6 @@ input[type='text'] {
 	height:200px;
 	display:table;
 	text-align:center;
-	/* background-color:rgba(219, 219, 219, 0.4); */
 	
 }
 #hangman-header-content {

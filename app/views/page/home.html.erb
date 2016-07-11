@@ -6,18 +6,17 @@
 			<h2>Amateur Ukulele Player</h2>
 			<h2>Avid Movie Goer</h2>
 		<span id="about-me"></span>
-
 		</div>
-
-		
-		
-	</div>
-		<div class="divider" id="blogs">
+		<div class="divider" id="about-blogs">
 			<div>
-				<h3>About Me</h3>
+				<h3>A B O U T &nbsp; M E </h3>
+					<!-- &amp; -->
+				<h3>L A T E S T &nbsp; B L O G </h3>
 			</div>
 				
 		</div>
+	</div>
+		
 	<div class="mid-body-container">
 		<div class ="blogs-container ">
 			<div class="latest-blog ">
@@ -36,7 +35,28 @@
 			</div>
 
 			<div class="about-me-summary ">
-			this is where about me content will be
+				<div id="about-me-pic-container">
+					<img src="assets/ecorpus.png">
+				</div>
+				<p class="skill-description">
+					<span class="skill-bold">OBJECT ORIENTED PROGRAMMING</span>: I am well versed in Ruby and Javascript, and am applying/learning best-practices daily. I also am in the progress of learning Swift! I am quite experienced with React.js, and have built several apps, including this website using the React.js library.
+				</p>
+
+				<p class="skill-description">
+					<span class="skill-bold">MVC DESIGN</span>: I am familiar with the Model-View-Controller design and try to implement the use of single-responsibility whenever using this design foundation. 
+				</p>
+
+				<p class="skill-description">
+					<span class="skill-bold">AGILE DEVELOPMENT</span>: I enjoy this type of design strategy as it allows me to experience and further my knowledge of all aspects of the MVC.
+				</p>
+
+				<p class="skill-description">
+					<span class="skill-bold">TEST DRIVEN DEVELOPMENT</span>: I have experience with RSPEC and Jasmine testing frameworks, and try to use test driven development whenever possible. It is definitely an area I want to experience and improve.
+				</p>
+
+				<p class="skill-description">
+					<span class="skill-bold">GIT/VERSION CONTROL</span>: I am familiar with <a href="www.github.com">github</a> as almost all of my projects (big or small) are pushed to my repo. I am familiar with version control and how the workflow of a team project should be structured. 
+				</p>
 			</div>
 
 		</div>
@@ -45,6 +65,8 @@
 		<div class="divider" id="portfolio">
 				<div>
 					<h3>P O R T F O L I O</h3>
+						<!-- &amp;  -->
+					<h3> S K I L L S</h3>
 				</div>
 		</div>
 	</div>
@@ -63,10 +85,50 @@
 					</p>
 					<hr />
 					<p class="project-link">
-						<a href='http://www.fitbitgraphs.co'>View Project</a>
-					<p>
+						<a href=<%= project.url.to_s %>>View Project</a>
+					</p>
 				</div>
 				<%end %>
+			</div>
+
+			
+		</div>
+
+		<div class="skills-icons-container">
+			<div class="skill-icon-pic-container" title="HTML5">
+				<img src="assets/html.png"/>
+			</div>
+			
+			<div class="skill-icon-pic-container" title="CSS3">
+				<img src="assets/css.png"/>
+			</div>
+			
+			<div class="skill-icon-pic-container" title="Javascript">
+				<img src="assets/javascript.png"/>
+			</div>
+			
+			<div class="skill-icon-pic-container" title="React.js">
+				<img src="assets/react.png"/>
+			</div>
+			
+			<div class="skill-icon-pic-container" title="Ruby on Rails">
+				<img src="assets/ruby-on-rails.png"/>
+			</div>
+			
+			<div class="skill-icon-pic-container" title="Ruby">
+				<img src="assets/ruby.png"/>
+			</div>
+			
+			<div class="skill-icon-pic-container" title="PostgreSQL">
+				<img src="assets/postgreSQL.png"/>
+			</div>
+			
+			<div class="skill-icon-pic-container" title="Github">
+				<img src="assets/git.png"/>
+			</div>
+			
+			<div class="skill-icon-pic-container" title="Heroku">
+				<img src="assets/heroku.png"/>
 			</div>
 		</div>
 
