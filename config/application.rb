@@ -25,6 +25,6 @@ module Webpage
     config.assets.precompile += %w(application.css)
     config.assets.precompile += %w(scaffolds.css)
     config.assets.precompile += %w(battleship.css)
-    config.assets.precompile += %w(hangman.css)
+    config.assets.precompile += %w(snowman.css)
   end
 end
