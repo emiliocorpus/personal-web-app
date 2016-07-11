@@ -22,7 +22,8 @@ module Webpage
 
     # Do not swallow errors in after_commit/after_rollback callbacks.
     config.active_record.raise_in_transactional_callbacks = true
-    config.assets.precompile += %w(application.css)
+    config.assets.precompile += %w(application.scss)
+    config.assets.precompile += %w(page.css)
     config.assets.precompile += %w(scaffolds.css)
     config.assets.precompile += %w(battleship.css)
     config.assets.precompile += %w(snowman.css)
