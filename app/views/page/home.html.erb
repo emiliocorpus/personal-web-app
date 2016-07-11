@@ -1,25 +1,28 @@
 	<div class="upper-body-container">
-		<div class="welcome">
+		<div class="welcome" >
 			<h2>Full-Stack Web Developer</h2>
 			<h2>Lifelong Learner</h2>
 			<h2>Adventure Seeker</h2>
 			<h2>Amateur Ukulele Player</h2>
 			<h2>Avid Movie Goer</h2>
+		<span id="about-me"></span>
+
 		</div>
 
-		<div class="divider">
+		
+		
+	</div>
+		<div class="divider" id="blogs">
 			<div>
-				<h3>B L O G S</h3>
+				<h3>About Me</h3>
 			</div>
 				
 		</div>
-	</div>
-		
-
 	<div class="mid-body-container">
-		<div class ="blogs-container">
-			<div class="latest-blog">
+		<div class ="blogs-container ">
+			<div class="latest-blog ">
 				<p class="blog-title">
+					MOST RECENT BLOG:
 					<%= @content[:last_blog][:name]%>
 				</p>
 				<hr />
@@ -31,9 +34,15 @@
 					<%= @content[:last_blog].content %>
 				</p>
 			</div>
+
+			<div class="about-me-summary ">
+			this is where about me content will be
+			</div>
+
 		</div>
 
-		<div class="divider">
+
+		<div class="divider" id="portfolio">
 				<div>
 					<h3>P O R T F O L I O</h3>
 				</div>
@@ -42,7 +51,7 @@
 
 	<div class="lower-body-container">
 		<div class="portfolio-container">
-			<div style="vertical-align:middle;text-align:center;width:100%;margin:0 auto;padding-top:100px;padding-bottom:100px;" class="debugger-blue">
+			<div style="vertical-align:middle;text-align:center;width:100%;margin:0 auto;padding-top:100px;padding-bottom:100px;" class="">
 				<% @content[:projects].each do |project| %>
 				<div class="project">
 					<p class="project-title">
@@ -54,7 +63,7 @@
 					</p>
 					<hr />
 					<p class="project-link">
-						<a href=<%= project.url.to_s %>>View Project</a>
+						<a href='http://www.fitbitgraphs.co'>View Project</a>
 					<p>
 				</div>
 				<%end %>
