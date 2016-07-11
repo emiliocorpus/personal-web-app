@@ -28,56 +28,7 @@ html {
   border: 1px solid green;
 }
 
-body {
-	font-family: "Lucida Console", Monaco, monospace;
+.debugger {
+  border:1px solid red;
 }
 
-.navbar-fixed-top, .navbar-default{
-  margin-bottom:0;
-  background-color:#2C2C2C;
-  color:green;
-}
-
-.nav-custom-color, .nav-custom-color a {
-  color:white;
-}
-
-.nav-custom-color a:hover{
-  text-decoration:none;
-  color:#C1C1C1;
-  background-color:black;
-}
-
-.nav.navbar-nav.navbar-right li {
-  padding-right:10px;
-}
-
-.nav.navbar-nav.navbar-right li a, .navbar-brand {
-    color: white;
-}
-
-.nav.navbar-nav.navbar-right li a:hover {
-    background-color:black;
-}
-
-
-.footer {
-  right: 0;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  padding: 1rem;
-  height:200px;
-  display: table;
-}
-
-.footer-content {
-  display:table-cell;
-  vertical-align:middle;
-  text-align:center;
-}
-
-.footer, .footer-content {
-  width:100%;
-  background-color: rgba(255, 253, 255, 0.9);
-}
