@@ -232,7 +232,7 @@ DEPENDENCIES
   pry-rails
   quiet_assets
   rails (= 4.2.3)
-  react-rails (= 1.7.1)
+  react-rails
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)
   sqlite3

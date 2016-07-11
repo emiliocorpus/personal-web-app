@@ -1,51 +1,66 @@
-<div class="upper-body-container">
-	<div class="welcome">
+	<div class="upper-body-container">
+		<div class="welcome">
 			<h2>Full-Stack Web Developer</h2>
 			<h2>Lifelong Learner</h2>
 			<h2>Adventure Seeker</h2>
 			<h2>Amateur Ukulele Player</h2>
 			<h2>Avid Movie Goer</h2>
-	</div>
+		</div>
 
-	<div class="divider">
-			
+		<div class="divider">
 			<div>
-					<h3>B L O G S</h3>
+				<h3>B L O G S</h3>
 			</div>
-			
+				
+		</div>
 	</div>
-</div>
-	
+		
 
-<div class="mid-body-container">
-	<div class ="blogs-container">
-		<% @blogs.each do |blog| %>
-			<div class="blog">
+	<div class="mid-body-container">
+		<div class ="blogs-container">
+			<div class="latest-blog">
 				<p class="blog-title">
-					<%= blog.title %>
+					<%= @content[:last_blog][:name]%>
 				</p>
 				<hr />
 				<p class="blog-date">
-					<%= blog.created_at.strftime("%A") %>, 
-					<%= blog.created_at.strftime("%B #{blog.created_at.day.ordinalize}, %Y")%>
+					<%= @content[:last_blog].created_at.strftime("%A") %>, 
+					<%= @content[:last_blog].created_at.strftime("%B #{@content[:last_blog].created_at.day.ordinalize}, %Y")%>
 				</p>
 				<p class="blog-content">
-					<%= blog.content %>
+					<%= @content[:last_blog].content %>
 				</p>
 			</div>
-		<% end %>
+		</div>
+
+		<div class="divider">
+				<div>
+					<h3>P O R T F O L I O</h3>
+				</div>
+		</div>
 	</div>
 
-	<div class="divider">
-			<div><h3>P O R T F O L I O</h3></div>
+	<div class="lower-body-container">
+		<div class="portfolio-container">
+			<div style="display:table-cell;vertical-align:middle;text-align:center;">
+				<% @content[:projects].each do |project| %>
+				<div class="project">
+					<p class="project-title">
+						<%= project.name %>
+					</p>
+					<hr/>
+					<p class="project-description">
+						<%= project.description %>
+					</p>
+					<hr />
+					<p class="project-link">
+						<a href=<%= project.url.to_s %>>Visit Page</a>
+					<p>
+				</div>
+				<%end %>
+			</div>
+		</div>
+
 	</div>
-</div>
-
-<div class="lower-body-container">
-	<div class="portfolio">
-
-
-	</div>
-</div>
-	
+		
 

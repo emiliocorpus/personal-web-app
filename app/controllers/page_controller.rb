@@ -1,7 +1,8 @@
 class PageController < ApplicationController
   def home
-  	@blogs = Blog.all.reverse
-    @blogs = [@blogs[0], @blogs[1], @blogs[2]]
+  	last_blog = Blog.all.last
+    projects = Project.all
+    @content = {last_blog:last_blog, projects: projects}
   end
 
   def projects
@@ -14,3 +15,4 @@ class PageController < ApplicationController
   	@blogs = Blog.all.reverse
   end
 end
+ 

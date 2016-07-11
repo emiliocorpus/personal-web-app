@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Type:</strong>
+  <%= @project.type %>
+</p>
+
+<p>
+  <strong>Picture url:</strong>
+  <%= @project.picture_url %>
+</p>
+
+<p>
+  <strong>Techologies used:</strong>
+  <%= @project.techologies_used %>
+</p>
+
+<%= link_to 'Edit', edit_project_path(@project) %> |
+<%= link_to 'Back', projects_path %>
