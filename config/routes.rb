@@ -9,6 +9,8 @@ Rails.application.routes.draw do
   get 'contact' => 'page#contact', as: :contact
 
   get 'portfolio/snowman' => 'snowman#index'
+  get 'portfolio/snowman/word/retrieve' => 'snowman#retrieve'
+
 
   get 'portfolio/battleship' => 'battleship#index'
 

@@ -24,7 +24,7 @@ var HangmanPage = React.createClass({
 	},
 	handleCategorySelect:function(category){
 		$.ajax({
-		  url: "/hangman-categories",
+		  url: "snowman/word/retrieve",
 		  dataType: 'json',
 		  cache: false,
 		  data: {category: category},
