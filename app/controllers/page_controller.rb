@@ -1,4 +1,6 @@
 class PageController < ApplicationController
+  layout 'application'
+
   def home
   	last_blog = Blog.all.last
     projects = Project.all

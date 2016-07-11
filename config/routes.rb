@@ -8,9 +8,9 @@ Rails.application.routes.draw do
   get 'resume' => 'page#resume', as: :resume
   get 'contact' => 'page#contact', as: :contact
 
-  get 'portfolio/snowman' => 'projects#snowman'
+  get 'portfolio/snowman' => 'snowman#index'
 
-  get 'portfolio/battleship' => 'projects#battleship'
+  get 'portfolio/battleship' => 'battleship#index'
 
 
 end

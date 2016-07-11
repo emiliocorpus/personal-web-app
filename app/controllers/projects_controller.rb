@@ -6,16 +6,6 @@ class ProjectsController < ApplicationController
   def show
   end
 
-
-  def hangman 
-
-  end
-
-  def battleship
-
-  end
-
-
   # POST /projects
   # POST /projects.json
   def create
