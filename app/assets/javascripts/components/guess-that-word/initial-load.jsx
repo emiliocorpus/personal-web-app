@@ -1,11 +1,9 @@
 var InitialLoad = React.createClass({
 	handleSelectGameType:function(type){
 		if (type === 1) {
-			debugger
 			this.props.handleGameMode(1)
 		}
 		else {
-			debugger
 			this.props.handleGameMode(2)
 		}
 	},

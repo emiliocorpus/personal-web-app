@@ -17,7 +17,7 @@
 	
 	Project.create(name: "Battleship", description:"Made with React.js and Ruby on Rails. This game was created to further understand how to build a fully functional single-page appliction via React.js. Super fun to build!", url: "/portfolio/battleship")
 
-	Project.create(name: "Snowman", description: "Project was also made with React.js to gain more expecerience in designing a known game (similar to Hangman) into a single-page app", url: "/portfolio/snowman")
+	Project.create(name: "Guess That Word", description: "Project was also made with React.js to gain more expecerience in designing a known game (similar to Hangman) into a single-page app", url: "/portfolio/guess-that-word")
 
 	Project.create(name: "FitbitGraphs", description: "Uses FitbiAPI to fetch various data like steps and calories from a users Fitbit tracker. Also uses Charts.js to interpret JSON data from the API into a viewable graph.", url: "http://www.fitbitgraphs.co")
 

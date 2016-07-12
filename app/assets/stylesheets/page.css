@@ -85,7 +85,7 @@ body {
   margin-top:0;
   width:100%;
 }
-.mid-body-container {
+.upper-mid-body-container {
   background: url('city-scape.jpg') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -96,7 +96,7 @@ body {
   height:100%;
   padding-top:2%;
 }
-.lower-body-container {
+.lower-mid-body-container {
   background: url('cage-library.jpg') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -105,9 +105,19 @@ body {
   margin-top:0;
   width:100%;
   height:100%;
-  padding-bottom:20%;
 }
-
+.lower-body-container {
+  background: url('hangman.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-top:0;
+  width:100%;
+  height:100%;
+  padding-bottom:20%;
+  padding-top:10%;
+}
 
 
 /* DIVIDER ELEMENTS AND LINKS FOR JQUERY*/
@@ -179,16 +189,31 @@ hr {
 	height:125px;
 }
 #portfolio {
-  margin-top:200px;
+  margin-top:30%;
+}
+
+.about-me-summary-text {
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size:15px;
+}
+.about-me-summary {
+  margin:0 auto;
+  border:1px solid red;
+  text-align:center;
 }
 
 /* //blogs and about me */
-#about-me-pic-container{
+.about-me-pic-container{
+ 
 }
-#about-me-pic-container img{
+.about-me-pic-container img{
   border-radius:50px;
   height:125px;
-  float:left;
+  margin:0 auto;
+}
+
+.about-me-summary-info {
+  font-size:20px;
 }
 .blogs-container, .portfolio-container {
 	width: 100%;
@@ -221,16 +246,44 @@ hr {
 .latest-blog{
 	width:70.0%;
   float:left;
+  max-height:500px;
 }
 .about-me-summary {
-  float:left;
-  width:20%;
+  margin:0 auto;
+  width:70%;
   font-size:10px;
 }
-
 .about-me-summary {
 	padding:2%;
 }
+#more-about-me {
+  height:500px;
+  display:none;
+  text-align:left;
+  font-size:15px;
+  padding:3%;
+  padding-bottom:5%;
+}
+.hide-more-about-me {
+  display:none;
+}
+
+
+
+
+
+
+
+.sn-icon {
+  width:30px;
+  height:30px;
+}
+.sn-icon:hover {
+  text-decoration:none;
+  width:35px;
+  height:35px;
+}
+
 .blog-title {
 	font-size: 25px;
 	font-style:bold;
@@ -297,6 +350,10 @@ hr {
 
   #portfolio {
   	margin-top:200px;
+  }
+
+  #skillset {
+    margin-top:200px;
   }
 
   .project {
@@ -372,3 +429,7 @@ hr {
 }
 
 
+.active li {
+  background-color:black;
+  color:white;
+}
