@@ -195,6 +195,7 @@ hr {
 .about-me-summary-text {
   font-family: "Lucida Console", Monaco, monospace;
   font-size:15px;
+
 }
 .about-me-summary {
   margin:0 auto;
@@ -204,16 +205,18 @@ hr {
 
 /* //blogs and about me */
 .about-me-pic-container{
- 
+  margin-bottom:3%;
 }
 .about-me-pic-container img{
   border-radius:50px;
-  height:125px;
+  height:180px;
   margin:0 auto;
 }
 
 .about-me-summary-info {
-  font-size:20px;
+  width:50%;
+  margin:0 auto;
+  font-size:1.2em;
 }
 .blogs-container, .portfolio-container {
 	width: 100%;
@@ -346,6 +349,10 @@ hr {
   .about-me-summary {
   	margin-bottom:20%;
   	padding:1%;
+  }
+
+  .about-me-summary-info {
+    width:100%;
   }
 
   #portfolio {
