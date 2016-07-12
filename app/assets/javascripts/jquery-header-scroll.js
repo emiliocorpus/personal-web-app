@@ -42,3 +42,8 @@ $(document).on('click','.navbar-collapse.in',function(e) {
         $(this).collapse('hide');
     }
 });
+
+
+$(document).ready(function () {
+    $("#welcome-splash").fadeIn(3000).removeClass('hidden');
+});

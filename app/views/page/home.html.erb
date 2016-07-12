@@ -1,11 +1,12 @@
 <%= render 'partials/navbar_home' %>
 <div class="upper-body-container">
 	<div class="welcome" >
-		<h2>Full-Stack Web Developer</h2>
-		<h2>Lifelong Learner</h2>
-		<h2>Adventure Seeker</h2>
-		<h2>Amateur Ukulele Player</h2>
-		<h2>Avid Movie Goer</h2>
+		<div id="welcome-splash" class="hidden">
+			<h2>Full-Stack Web Developer</h2>
+			<h2>Lifelong Learner</h2>
+			<h2>Adventure Seeker</h2>
+			<h2>Bay Area Native</h2>
+		</div>
 		<div class="arrow-link-container">
 			<a href="#about-blogs" class="arrow-links" data-target="about-blogs">Learn More<br/>
 				&#x21E9;
@@ -41,10 +42,9 @@
 		</div>
 		<div class="about-me-summary-info">
 			<p class="about-me-summary-text">
-				Emilio Corpus.<br/>
-				Rails and React.js Dev.<br/>
+				Emilio Corpus<br/>
+				Full-Stack Web Developer<br/>
 				Bay Area, CA<br/>
-				Basketballer, Ukulele Player, 90's Hip Hop, Previous ER Medical Scribe<br/>
 			</p>
 		</div>
 		<div style="width:100%;text-align:center;">
@@ -69,7 +69,8 @@
 		</div>
 
 		<div id="more-about-me">
-			<p> This is more info aboutme.  This is more info aboutme This is more info aboutme This is more info aboutme This is more info aboutme This is more info aboutme This is more info aboutme This is more info aboutme</p>
+			<h3>ABOUT</h3>
+			<p id="about-emilio-full"> Early on in his life, Emilio had the desire to one day become a doctor. He attended UC Irvine where he received his bachelor’s in Biology. For several years after college, Emilio worked as an emergency room scribe and it was there that he discovered he was not as passionate as he once was for working in healthcare. After talking to several friends with computer science backgrounds and doing codecademy.com exercises, he decided to attend DevBootcamp’s program in San Francisco. There he acquired more skills in web development and today uses his knowledge to make various Ruby on Rails applications. Being fairly new to the web development community, Emilio prides himself in learning new technologies on the fly and considers himself an efficient problem solver. Outside of the code, Emilio loves going on hikes, playing basketball with friends, and traveling to the unknown. He is an Oakland Raiders die-hard fan, amateur ukulele musician, and current PokemonGO trainer.</p>
 		
 		</div>
 		<!-- </div> -->
@@ -128,6 +129,10 @@
 		<div class="skill-icon-pic-container" title="React.js">
 			<img src="assets/react.png"/>
 		</div>
+
+		<div class="skill-icon-pic-container jquery-pic" title="Jquery">
+			<img src="assets/jquery-icon.png"/>
+		</div>
 		
 		<div class="skill-icon-pic-container" title="Ruby on Rails">
 			<img src="assets/ruby-on-rails.png"/>
@@ -138,7 +143,7 @@
 		</div>
 		
 		<div class="skill-icon-pic-container" title="PostgreSQL">
-			<img src="assets/postgreSQL.png"/>
+			<img src="assets/postgreSQL.png" style="height:110px;"/>
 		</div>
 		
 		<div class="skill-icon-pic-container" title="Github">
