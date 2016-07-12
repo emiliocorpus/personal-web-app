@@ -135,7 +135,8 @@ body {
 
 /* DIVIDER ELEMENTS AND LINKS FOR JQUERY*/
 .divider {
-	background-color:rgba(105,105,105,0.8);
+	background-color:rgba(105,105,105,0.97);
+  box-shadow:10px 10px 10px #4A4A4A;
 	text-align:center;
 	margin:0 auto;
 	width:100%;
@@ -192,6 +193,7 @@ hr {
 	display:inline-block;
 	vertical-align:top;
 	font-size:20px;
+  box-shadow:6px 6px 6px #4A4A4A;
 }
 .project-title {
 	text-align:center;
@@ -259,6 +261,7 @@ hr {
 	background-color: rgba(255, 253, 255, 0.9);
 	background: rgba(255, 253, 255, 0.9);
 	color: #494949;
+  box-shadow:10px 10px 10px #4A4A4A;
 }
 .latest-blog{
 	width:70.0%;
@@ -293,6 +296,8 @@ hr {
 .sn-icon {
   width:30px;
   height:30px;
+  margin-left:3%;
+  margin-right:3%;
 }
 
 .sn-icon:hover {
