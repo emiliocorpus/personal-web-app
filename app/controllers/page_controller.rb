@@ -7,18 +7,13 @@ class PageController < ApplicationController
     @content = {last_blog:last_blog, projects: projects}
   end
 
-  def about
-    # to about me page
-    
-  end
-
   def blogs
   	@blogs = Blog.all.reverse
   end
 
-  def contact
-    # to contact page
-
+  def resume
+     # pdf_filename = Rails.root.join("public", "resume.pdf")
+     # send_file(pdf_filename, :filename => "resume.pdf", :disposition => "inline", :type => "application/pdf")
   end
 end
  

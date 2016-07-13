@@ -98,7 +98,9 @@
 				</p>
 				<hr/>
 				<div class ="project-picture">
+					<a href=<%= project.url %>>
 					<img src=<%= 'assets/' + project.picture_url %> / >
+					</a>
 				</div>
 
 				<hr/>
@@ -108,7 +110,7 @@
 				</p>
 				<hr />
 				<p class="project-link">
-					<a href=<%= project.url.to_s %>>View Project</a>
+					<a href=<%= project.url %>>View Project</a>
 				</p>
 			</div>
 			<%end %>

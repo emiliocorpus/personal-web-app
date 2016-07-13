@@ -12,6 +12,7 @@ gem 'devise'
 gem 'figaro'
 gem 'bootstrap-sass', '~> 3.3.6'
 gem 'oauth2'
+gem 'prawn'
 
 
 group :development, :test do

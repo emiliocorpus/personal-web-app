@@ -1,6 +1,10 @@
 class ProjectsController < ApplicationController
   before_action :set_project, only: [:show, :edit, :update, :destroy]
 
+  def index 
+    redirect_to root_path
+
+  end
 
   # GET /projects/1
   def show
