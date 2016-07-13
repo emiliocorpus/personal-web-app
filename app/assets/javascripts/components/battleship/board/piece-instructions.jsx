@@ -36,7 +36,7 @@ var PieceInstructions = React.createClass({
 								<li>Ship will be placed rightwards or downwards from the clicked cell</li>
 								<li>Ships may not be placed adjacent to each other!</li>
 							</ul>
-						<li>Double click desired piece <em>below</em> to rotate</li>
+						<li>Double click desired piece below to rotate</li>
 						<li>Or if you are feeling lazy hit the 'Randomize' button</li>
 					</ul>
 				</div>

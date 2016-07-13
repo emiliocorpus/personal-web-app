@@ -46,4 +46,6 @@ $(document).on('click','.navbar-collapse.in',function(e) {
 
 $(document).ready(function () {
     $("#welcome-splash").fadeIn(3000).removeClass('hidden');
+    $(".arrow-link-container").fadeIn(4000).removeClass('hidden');
 });
+

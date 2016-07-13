@@ -36,7 +36,7 @@ var CurrentHangmanGame = React.createClass({
 				<div id="hangman-content-container">
 					<div id="hangman-content">
 						{display}
-						<div><a href="/hangman" className="back-to-hangman-home"onClick={this.resetGame}>Back To Game Mode Selection</a></div>
+						<div><a href="/portfolio/guess-that-word" className="back-to-hangman-home"onClick={this.resetGame}>Back To Game Mode Selection</a></div>
 					</div>
 				</div>
 			</div>

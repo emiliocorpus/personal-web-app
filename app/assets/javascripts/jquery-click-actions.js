@@ -3,7 +3,7 @@ $(document).on('click','.searchbychar', function(event) {
     var target = "#" + this.getAttribute('data-target');
     $('html, body').animate({
         scrollTop: $(target).offset().top
-    }, 300);
+    }, 600);
 });
 
 
@@ -13,7 +13,7 @@ $(document).on('click','.arrow-links', function(event) {
     var target = "#" + this.getAttribute('data-target');
     $('html, body').animate({
         scrollTop: $(target).offset().top
-    }, 300);
+    }, 600);
 });
 
 

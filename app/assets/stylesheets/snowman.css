@@ -154,16 +154,11 @@ input[type='text'] {
 	color:white;
 }
 
+.back-to-hangman-home:visited{
+	color:white;
+}
 .back-to-hangman-home:hover{
 	color:yellow;
-}
-
-a {
-	color:blue;
-}
-
-a:hover {
-	color: yellow;
 }
 
 #puzzle {

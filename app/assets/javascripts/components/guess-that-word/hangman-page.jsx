@@ -212,6 +212,9 @@ var HangmanPage = React.createClass({
 		
 		return (
 			<div id="hangman-page-container">
+				<div>
+					<a href="/">Home</a>
+				</div>
 				<HangmanHeader />
 				{pageDisplay}
 			</div>

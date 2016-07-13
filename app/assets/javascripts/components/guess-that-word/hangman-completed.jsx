@@ -13,11 +13,11 @@ var HangmanCompleted = React.createClass({
 		var gameLossMessage = "Darn, better luck next time. To play again please click " 
 		var word = this.props.data.word.value
 		if (this.props.data.victory == true && this.props.data.currentStage == "completed") {
-			gameOver = <span id ="game-over-message"><span className="font-clr-green">Congratulations</span> you guessed it correctly! To play again please click <a href="/hangman" onClick={this.resetGame}>here</a>!</span>
+			gameOver = <span id ="game-over-message"><span className="font-clr-green">Congratulations</span> you guessed it correctly! To play again please click <a href="/portfolio/guess-that-word" onClick={this.resetGame}>here</a>!</span>
 
 		}
 		if (this.props.data.victory == false && this.props.data.currentStage == "completed") {
-			gameOver = <span id ="game-over-message" className="font-color-black">{gameLossMessage}<a href="/hangman">here</a></span>
+			gameOver = <span id ="game-over-message" className="font-color-black">{gameLossMessage}<a href="/portfolio/guess-that-word">here</a></span>
 		}
 		for (i=0; i <= checkArray.length - 1; i++) {
 			if (checkArray[i].guessed == false) {

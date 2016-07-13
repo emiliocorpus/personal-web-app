@@ -69,11 +69,12 @@ body {
 	height:100vh;
 	text-align:center;
 	color:white;
-	text-shadow: 2px 2px #020202;
 }
 
   #welcome-splash {
     display:none;
+  text-shadow: 2px 2px #020202;
+
   }
 
   .hidden {
@@ -136,7 +137,6 @@ body {
 /* DIVIDER ELEMENTS AND LINKS FOR JQUERY*/
 .divider {
 	background-color:rgba(105,105,105,0.97);
-  box-shadow:10px 10px 10px #4A4A4A;
 	text-align:center;
 	margin:0 auto;
 	width:100%;
@@ -165,9 +165,10 @@ hr {
   margin:0 auto;
 }
 .arrow-link-container a {
+
   font-size:20px;
   text-decoration: none;
-  color:white;
+  color:#FFFFFF;
 }
 .arrow-link-container a:hover {
   font-size:24px;
@@ -187,7 +188,7 @@ hr {
 	background: rgba(255, 253, 255, 0.9);
 	color: #494949;
 	width:200px;
-	height:300px;
+	height:450px;
 	padding:10px;
 	margin-top:10px;
 	display:inline-block;
@@ -197,6 +198,29 @@ hr {
 }
 .project-title {
 	text-align:center;
+  
+}
+
+.project-link {
+  text-decoration:underline;
+  color:blue;
+}
+
+.project-link:hover {
+  color:green;
+}
+
+.project-picture {
+  height:100px;
+  width:100%;
+  text-align:center;
+  margin:0 auto;
+  padding:0;
+  overflow-x:hidden;
+}
+
+.project-picture img {
+  max-height:100px;
 }
 .project-description {
 	text-align:justify;
@@ -286,13 +310,6 @@ hr {
 .hide-more-about-me {
   display:none;
 }
-
-
-
-
-
-
-
 .sn-icon {
   width:30px;
   height:30px;
@@ -378,8 +395,10 @@ hr {
   	margin-bottom:20%;
   	padding:1%;
   }
-
   .about-me-summary-info {
+    width:100%;
+  }
+  .about-me-summary { 
     width:100%;
   }
 
@@ -392,12 +411,11 @@ hr {
   }
 
   .project {
-  	width:150px;
-  	height:280px;
+    height:400px;
   	padding:10px;
   	margin-top:10px;
+    width:100%;
   	display:inline-block;
-  	vertical-align:top;
   	font-size:14px;
   }
 
@@ -407,62 +425,21 @@ hr {
   .project-description {
   	text-align:justify;
   	font-size:10px;
-  	height:150px;
+  	height:70px;
+  }
+
+  .project-picture {
+    height:150px;
+    width:100%;
+    text-align:center;
+    margin:0 auto;
+    padding:0;
+  }
+
+  .project-picture img {
+    max-height:150px;
   }
 }
-
-@media (max-width: 760px) {
-  .welcome {
-	padding-top:100px;
-  }
-  .blog, .latest-blog, .about-me-summary {
-  	width:100%;
-  	margin-left:0;
-  	margin-right:0;
-  }
-  .latest-blog, .about-me-summary {
-	padding:1%;
-  }
-  .blogs-container, .portfolio-container {
-  	padding-left:0;
-  	padding-right:0;
-  }
-  .blogs-container {
-  	padding-bottom:100px;
-  }
-	.latest-blog {
-		padding-top:30px;
-		margin-top:10%;
-	}
-	.blog-content {
-	}
-  .about-me-summary {
-    	margin-bottom:20%;
-    	padding:1%;
-    }
-
-    
-
-    .project {
-    	width:150px;
-    	height:280px;
-    	padding:10px;
-    	margin-top:10px;
-    	display:inline-block;
-    	vertical-align:top;
-    	font-size:14px;
-    }
-
-    .project-title {
-    	text-align:center;
-    }
-    .project-description {
-    	text-align:justify;
-    	font-size:10px;
-    	height:150px;
-    }
-}
-
 
 .active li {
   background-color:black;

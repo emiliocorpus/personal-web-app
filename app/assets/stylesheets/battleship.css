@@ -1,3 +1,26 @@
+html {
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+*, *:before, *:after {
+   -webkit-box-sizing: inherit;
+   -moz-box-sizing: inherit;
+   box-sizing: inherit;
+}
+
+ul li {
+	color:white;
+}
+
+.debugger {
+   border: 1px solid red;
+}
+
+#hangman-page-container a {
+	text-decoration:underline;
+}
+
 body{
 	margin: 0;
 	padding: 0;
@@ -56,7 +79,7 @@ body{
 }
 #new-game-link {
 	text-decoration:none;
-	
+	color:white;
 }
 .new-game-link:hover{
 	border:none;
@@ -328,4 +351,6 @@ ul {
     -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
 }
 
-
+a:visited{
+	color:blue;
+}
